@@ -1,0 +1,40 @@
+.login-form{
+  width: 250%;
+  max-width: 930px;
+  padding: 25px;
+  margin: auto;
+  height: 100%;
+  border-radius: 10px;
+  background-color: rgba(83, 108, 76, 0.36);
+  margin-top: 150px;
+  
+  
+}
+
+#text-center{
+  align-items: center;
+}
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 40%;
+  padding: 10px;
+  height: 200px; /* Should be removed. Only for demonstration */
+  margin-left: 60px;
+ 
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.button btn-lg btn-dark btn-block{
+  width: 10% 10% 10%;
+}
+.button{
+  width: 30%;
+  align-items: center;
+  margin: auto;
+}
